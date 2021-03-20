@@ -1,16 +1,24 @@
-# frontend-testview
+# TestView-Frontend
+The frontend is written in Flutter
 
-A Flutter project.
+You can access the site: https://csnoboa.github.io/testview_site/#/
 
-## Getting Started
+The site is running the frontend and is connecting to the backend in http://127.0.0.1:5000/, so if you want to do it this way, you must let your backend in this URL!
 
-This project is a starting point for a Flutter application.
+Or, you can install flutter and build an app or a website:
 
-A few resources to get you started if this is your first Flutter project:
+# 0- Install Flutter
+You can install Flutter in: https://flutter.dev/
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+# 1- Change the URL of the backend:
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Change the variable "urlBackend" in: 
+    lib\resources\config.dart
+
+The default is "http://127.0.0.1:5000/api".
+
+# 2- Run the project!
+ 
+    flutter run -d chrome       to run in Chrome
+or
+    flutter run -d edge         to run in Edge
