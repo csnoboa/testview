@@ -22,4 +22,4 @@ You can also configure a DB online in https://www.mongodb.com
 
 You can have fun now!
 
-Also there are automated tests for the backend in the folder tests.
+Also there are automated tests for the backend in the folder "tests".
