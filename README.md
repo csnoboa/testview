@@ -1,34 +1,25 @@
 # testview
 
-https://www.mongodb.com/try/download/community?tck=docs_server
+To run this project correctly, you must follow some steps:
 
+1- Download the MongoDB and run:
 
-BACKEND 
+    https://www.mongodb.com/try/download/community?tck=docs_server
 
+You can also configure a DB online in https://www.mongodb.com
 
-    in backend/ run: (with python 3.6) 
+2- Install the backend and run:
     
-        python -m venv env
-        
-        
-    then: (You will need to do this every new terminal)
+    In the folder "backend" you found all the steps
+
+3- Install the frontend and run:
+
+    In the folder "frontend" you found all the steps
     
-        source env/bin/activate     (Linux/MacOS)
-        
-        or
-        
-        env\Scripts\activate        (Windows)
-
-
-    Now, install the requirements:
+    Or you can access the site: https://csnoboa.github.io/testview_site/#/ 
     
-        pip install -r requirements.txt
+    Just make sure your backend is running in http://127.0.0.1:5000/
 
-    
-    Change the username and password of the database in config.py
+You can have fun now!
 
-    run:
-        python migrate.py
-
-    Now the project is ready, you can run:
-        python run.py
+Also there are automated tests for the backend in the folder tests.
