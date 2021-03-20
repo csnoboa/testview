@@ -13,6 +13,7 @@ You can install Flutter in: https://flutter.dev/
 # 1- Change the URL of the backend:
 
 Change the variable "urlBackend" in: 
+
     lib\resources\config.dart
 
 The default is "http://127.0.0.1:5000/api".
@@ -21,4 +22,5 @@ The default is "http://127.0.0.1:5000/api".
  
     flutter run -d chrome       to run in Chrome
 or
+    
     flutter run -d edge         to run in Edge
