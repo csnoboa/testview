@@ -7,6 +7,7 @@ All the steps aboves must be executed in this folder! ('backend')
 
 # 1- Optional - Create a Virtual Environment
 Create a virtual env (this step is not mandatore, but is advisable):
+        
         python -m venv env
 
 then: (You will need to do this every new terminal)
